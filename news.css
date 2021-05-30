@@ -10,7 +10,7 @@ body{
 
     /* background-color:lightsteelblue; */
     background-color: white;
-    width: 100vw;
+    max-width: 500px;
     height: auto;
 
     margin-left: auto;
