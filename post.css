@@ -1,0 +1,360 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.blank{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    max-width: 500px;
+    padding: 5px;
+}
+
+img{
+    width: 300px;
+    height: inherit;
+}
+
+form{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+form div{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 3px;
+    /* border: 1px solid red; */
+    margin-top: 5px;
+    margin-bottom:5px ;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* align-items: center; */
+}
+
+#select{
+    box-sizing: border-box;
+    width: 98%;
+    height: 35px;
+    border: 2px solid gainsboro;
+
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 15px;
+    color:black;
+    letter-spacing: 0.5px;
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#myselect{
+    display: none;
+    /* color: black; */
+}
+
+#select #news{
+    box-sizing: border-box;
+    width: 35%;
+    height: 100%;
+    border: 2px solid lightskyblue;
+    background-color: lightskyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 18px;
+    color:white;
+    letter-spacing: 0.5px;
+}
+#select #event{
+    box-sizing: border-box;
+    width: 35%;
+    height: 100%;
+    border: 2px solid lightskyblue;
+    background-color: lightskyblue;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 18px;
+    color:white;
+    letter-spacing: 0.5px;
+}
+
+form div input{
+    border: 2px solid gainsboro;
+    /* border-radius: 5px; */
+    box-sizing: border-box;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    width: auto;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 15px;
+    color:black;
+    letter-spacing: 0.5px;
+    /* color:blue; */
+    /* font-weight: bold; */
+}
+#myname::placeholder{color: black;}
+#myabout::placeholder{color: black;}
+#myemail::placeholder{color: black;}
+#mylink::placeholder{color: black;}
+#mytitle::placeholder{color: black;}
+#mydescription::placeholder{color: black;}
+
+#mylink{
+
+    display: none;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 15px;
+    color:black;
+    letter-spacing: 0.5px;
+}
+
+#mypost{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 15px;
+    color:black;
+    letter-spacing: 0.5px;
+    
+}
+
+textarea{
+    width: 100%;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 15px;
+    color:black;
+    letter-spacing: 0.5px;
+    border: 2px solid gainsboro;
+    /* border-radius: 5px; */
+    box-sizing: border-box;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+}
+
+#postimage{
+    width: 100%;
+    height: auto;
+    
+}
+
+#post span{
+    
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 15px;
+    color:black;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+}
+
+#btnpost{
+    box-sizing: border-box;
+    width: 50%;
+    height: 35px;
+    font-size: 20px;
+    font-style: bold;
+    color:white;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-bottom: 10px; */
+
+    text-align: center;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 20px;
+    color:white;
+    letter-spacing: 0.5px;
+
+    background-color: lime;
+    border: 2px solid gainsboro;
+}
+
+
+
+.confirmblock{
+    z-index: 10;
+    display: block;
+    position: fixed;
+    top: 25vh;
+
+    width: 90vw;
+    height: 50vh;
+    background-color: white;
+    border: 2px solid gainsboro;
+    box-shadow: 2px 2px 5px gainsboro;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.confirmblock #confirmimg{
+    width: 50%;
+    height: auto;
+
+    margin-left: calc(50vw - 31%);
+    /* margin-right: auto; */
+}
+
+.confirmtext{
+    /* background-color: blue; */
+    width: 90%;
+    height: auto;
+
+    text-align: center;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 15px;
+    color:black;
+    letter-spacing: 0.5px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#mysubmit{
+    box-sizing: border-box;
+    width: 40%;
+    height: 35px;
+    font-size: 20px;
+    font-style: bold;
+    color:white;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-bottom: 10px; */
+
+    background-color: lime;
+    border: 2px solid gainsboro;
+}
+
+
+#cross{
+    z-index: 15;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+
+    width: 35px;
+    height: 35px;
+    /* background-color:lightblue; */
+    background-image: url(./Photos/cross.png);
+    background-size: 115%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+
+    overflow: hidden;
+
+    
+}
+
+
+
+
+.validate{
+    box-sizing: border-box;
+    padding: 5px;
+    position: fixed;
+    top: 20px;
+
+    background-color: white;
+    border: 2px solid gainsboro;
+    box-shadow: 1px 1px 3px gainsboro;
+
+    width: 90vw;
+    height: 70px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.validtext{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 20px;
+    color:red;
+    letter-spacing: 0.5px;
+
+
+}
+
+.validok{
+    
+    cursor: pointer;
+    background-color: lightblue;
+    width: 17%;
+    height: 23px;
+
+    text-align: center;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 19px;
+    color:white;
+    text-shadow: 1px 1px 0px black;
+    letter-spacing: 0.5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.privacy{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 97%;
+    height: auto;
+    box-sizing: border-box;
+    border: 2px solid gainsboro;
+    /* border-radius: 5px; */
+    padding: 5px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 15px;
+    color:black;
+    letter-spacing: 0.5px;
+}

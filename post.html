@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&family=Play&display=swap" rel="stylesheet">
+    <!-- font-family: 'PT Sans Narrow', sans-serif; -->
+
+    <link rel="stylesheet" href="post.css">
+    <script src="./post.js"></script>
+    <title>Post</title>
+</head>
+
+<body>
+    <div class="blank">
+        <div class="validate">
+            <div class="validtext">Please provide complete information !!!</div>
+            <div class="validok">Ok</div>
+        </div>
+        <img src="./Photos/postpng1.png" alt="" srcset="">
+        <form action="https://formsubmit.co/sherkevikas1599@gmail.com" method="POST" enctype="multipart/form-data">
+            <br>
+            <div id="name">
+                <input type="text" name="myname" id="myname" placeholder="Your Name">
+            </div>
+
+            <div id="about">
+                <input type="text" name="myabout" id="myabout"
+                    placeholder="About You (eg. : 1st Yr. Mechanical, Professor CS, etc)">
+            </div>
+
+            <div id="email">
+                <input type="text" name="myemail" id="myemail" placeholder="Email ID">
+            </div>
+            <br>
+            <br>
+
+            <div id="select">
+                Select :
+                <div id="news">News</div>
+                <div id="event">Event</div>
+                <input type="text" name="myselect" id="myselect" placeholder="">
+            </div>
+            <div id="post">
+                <img src="./Photos/asset1.jpg" alt="" srcset="" id="postimage">
+                <span>Upload Image of your Post</span>
+                <input type="file" name="attachment" id="mypost" accept="image/jpg, image/png, image/jpeg">
+            </div>
+
+            <div id="link">
+                <input type="text" name="mylink" id="mylink" placeholder="Please paste the link of the Event">
+            </div>
+
+            <div id="title">
+                <input type="text" name="mytitle" id="mytitle" placeholder="Title of your post (max. 50 words)">
+            </div>
+
+            <div id="description">
+                <textarea name="mydescription" id="mydescription" cols="30" rows="10"
+                    placeholder="Write something about your Post...."></textarea>
+            </div>
+
+            <div id="btnpost">
+                Post
+            </div>
+
+            <div class="confirmblock">
+                <div id="cross"></div>
+                <img src="./Photos/postpng7.png" alt="" srcset="" id="confirmimg">
+                <div class="confirmtext">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque nobis deleniti tempore sunt omnis
+                    eligendi quisquam modi temporibus, beatae iste rerum assumenda dolores perferendis officiis
+                    laudantium. Minus, aut alias. Maxime!
+                </div>
+                <div id="submit">
+                    <input type="submit" value="Done" id="mysubmit">
+                </div>
+                
+            </div>
+
+
+        </form>
+        <br><br>
+        <img src="./Photos/postpng5.png" alt="" srcset="">
+        <br><br>
+
+
+
+        <div class="privacy">
+            <h3>Privacy Policy</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ex amet adipisci consequuntur
+                doloribus, quam dolores earum voluptatem, excepturi placeat quas magnam expedita, aut ducimus obcaecati
+                doloremque exercitationem fugiat! Ipsa.</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
